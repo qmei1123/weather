@@ -76,9 +76,9 @@ async function getWeather (city, key, units = 'imperial') {
     
 
     // Set Weather Body Class
-    if (data.weather.id < 600 && >=200) { document.body.classList.add('rainy')
+    if (data.weather[0].id < 600 && >=200) { document.body.classList.add('rainy')
     }
-      else if (data.weather.id >=600 && < 700) {
+      else if (data.weather[0].id >=600 && < 700) {
           document.body.classList.add('snowy')
       }
     // Set Wind Body Class
