@@ -33,6 +33,10 @@ const conditionDescription = document.querySelector('#condition-description')
 // Wind
 const windSpeed = document.querySelector('#wind-speed')
 
+//Precipitation
+const precip = 
+document.querySelector('#precipitation')
+
 // Error
 const errorBox = document.querySelector('#error')
 
@@ -86,7 +90,9 @@ async function getWeather (city, key, units = 'imperial') {
       document.body.classList.add('calm')
     }
 
-      
+   //Set Precipitation data
+      condition.innerText = 
+          data.precipitation.value
     // Log data from the API to the console
     console.log(data)
   } catch (e) {
