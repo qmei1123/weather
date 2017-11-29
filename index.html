@@ -21,21 +21,20 @@
       <form id="location-search">
         <h1>
             Where are you&#63;
-          <input type="text" id="area" value="Boston">
         </h1>
+          <input type="text" id="area" value="Boston">
       </form>
          <!-- If there is an error, this box is shown. 'dn' is the only required class -->
       <div id="error" class="dn">
         Sorry, we couldn't find that city. 
       </div>
       
+        <div class="location">
+          <p><span id="location-name"></span>&#44; <span id="country"></span></p>
+        </div>
       <!-- Content -->
       <div>
-        <div>
-          <h2>Location</h2>
-          <p>City: <span id="location-name"></span></p>
-          <p>Country: <span id="country"></span></p>
-        </div>
+        
         
         <div>
           <h2>Temperature</h2>
