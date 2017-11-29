@@ -55,9 +55,6 @@ async function getWeather (city, key, units = 'imperial') {
     locationName.innerText = data.name || ''
     country.innerText = data.sys.country
 
-    console.log(data.city.sun.rise);
-    console.log(data.city.sun.set); 
-    
     // Set Temperature Data
     temp.innerText = Math.round(data.main.temp)
     tempMin.innerText = Math.round(data.main.temp_min)
@@ -71,7 +68,6 @@ async function getWeather (city, key, units = 'imperial') {
     } else {
       document.body.classList.add('hot')
     }
-console.log(data.precipitation.mode)
 
     // Set Weather Data
     condition.innerText = data.weather[0].main
