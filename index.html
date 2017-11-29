@@ -10,23 +10,24 @@
     <!-- Site Styles -->
   <link rel="stylesheet" href="css/tachyons.min.css">
     <link rel="stylesheet" href="css/main.css">
+      <link href="https://fonts.googleapis.com/css?family=BenchNine:400,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Changa:400,700" rel="stylesheet">
   </head>
 
   <body>
     <div class="sans-serif">
-      
-      <!-- If there is an error, this box is shown. 'dn' is the only required class -->
-      <div id="error">
-        Sorry, we couldn't find that city. 
-      </div>
           
       <!-- Search Box -->
       <form id="location-search">
         <h1>
-            Weather for:
+            Where are you&#63;
           <input type="text" id="area" value="Boston">
         </h1>
       </form>
+         <!-- If there is an error, this box is shown. 'dn' is the only required class -->
+      <div id="error" class="dn">
+        Sorry, we couldn't find that city. 
+      </div>
       
       <!-- Content -->
       <div>

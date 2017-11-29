@@ -1,14 +1,6 @@
 body {
     padding: 50px !important;
 }
- * {
-    margin: 0;
-}
-.where {
-    width: 100%;
-    padding: 25px;
-    
-}
 h1 {
     font-size: 28px;
     font-family: 'BenchNine', sans-serif;
@@ -17,4 +9,14 @@ h1 {
 }
 h2 {
     font-family: 'BenchNine', sans-serif;
+}
+input {
+    text-transform: uppercase;
+    font-family: 'BenchNine', sans-serif;
+    padding-left: 25px;
+    border: none;
+    background-color:azure;
+}
+form {
+    
 }
