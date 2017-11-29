@@ -17,6 +17,10 @@ input {
     border: none;
     background-color:azure;
 }
+input:focus {
+    outline: none;
+    background-color: yellow;
+}
 form {
     
 }
