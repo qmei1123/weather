@@ -33,10 +33,6 @@ const conditionDescription = document.querySelector('#condition-description')
 // Wind
 const windSpeed = document.querySelector('#wind-speed')
 
-//Precipitation
-const precip = 
-document.querySelector('#precipitation')
-
 // Error
 const errorBox = document.querySelector('#error')
 
@@ -77,10 +73,14 @@ async function getWeather (city, key, units = 'imperial') {
     condition.innerText = data.weather[0].main
     conditionDescription.innerText = data.weather[0].description
     windSpeed.innerText = Math.round(data.wind.speed)
+    
 
     // Set Weather Body Class
-    document.body.classList.add(data.weather[0].main.toLowerCase())
-
+    if (data.weather.id < 600 && >=200) { document.body.classList.add('rainy')
+    }
+      else if (data.weather.id >=600 && < 700) {
+          document.body.classList.add('snowy')
+      }
     // Set Wind Body Class
     if (data.wind.speed > 10 && data.wind.speed < 20) {
       document.body.classList.add('breezy')
@@ -89,10 +89,7 @@ async function getWeather (city, key, units = 'imperial') {
     } else {
       document.body.classList.add('calm')
     }
-
-   //Set Precipitation data
-      condition.innerText = 
-          data.precipitation.value
+      
     // Log data from the API to the console
     console.log(data)
   } catch (e) {
