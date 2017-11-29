@@ -1,6 +1,6 @@
-/* ========================================
- * CSS written here will override Tachyons
- * ======================================== */
+body {
+    padding: 50px;
+}
  * {
     margin: 0;
 }
