@@ -16,36 +16,36 @@
     <div class="sans-serif">
       
       <!-- If there is an error, this box is shown. 'dn' is the only required class -->
-      <div id="error" class="dn bg-red white pa4 fixed bottom-0 w-100">
+      <div id="error">
         Sorry, we couldn't find that city. 
       </div>
           
       <!-- Search Box -->
-      <form id="location-search" class="pa4">
-        <h1 class="flex flex-wrap items-baseline">
-          <span class="mr3 mb2">
+      <form id="location-search">
+        <h1>
+          <span>
             Weather for:
           </span>
-          <input type="text" id="area" value="Boston" class="flex-auto">
+          <input type="text" id="area" value="Boston">
         </h1>
       </form>
       
       <!-- Content -->
-      <div class="flex flex-wrap pa4">
-        <div class="w-100 w-50-m w-third-l">
+      <div>
+        <div>
           <h2>Location</h2>
           <p>City: <span id="location-name"></span></p>
           <p>Country: <span id="country"></span></p>
         </div>
         
-        <div class="w-100 w-50-m w-third-l">
+        <div>
           <h2>Temperature</h2>
           <p>Current Temp: <span id="temp"></span></p>
           <p>Max Temp: <span id="temp-max"></span></p>
           <p>Min Temp: <span id="temp-min"></span></p>
         </div>
         
-        <div class="w-100 w-50-m w-third-l">
+        <div>
           <h2>Weather</h2>
           <p>Condition: <span id="condition"></span></p>
           <p>Desription: <span id="condition-description"></span></p>
