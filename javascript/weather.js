@@ -78,6 +78,20 @@ async function getWeather (city, key, units = 'imperial') {
     // Set Weather Body Class
     document.body.classList.add(data.weather[0].main.toLowerCase())
 
+    if (data.weather[0].number >= 200 && data.weather[0].number < 600) {
+        document.body.classList.add('rainy')
+    } else if (data.weather[0].number >= 600 && data.weather[0].number < 700) {
+       document.body.classList.add('snowy') 
+    } else if (data.weather[0].number == 800 || data.weather[0].number == 951) {
+        document.body.clasList.add('clear')
+    } else if (data.weather[0].number > 800 && data.weather[0].number < 805) {
+        document.body.classList.add('cloudy')
+    } else if (data.weather[0].number > 951 && data.weather[0].number < 963) {
+        document.body.classList.add('windy')
+    }
+        
+
+        
     // Set Wind Body Class
     if (data.wind.speed > 10 && data.wind.speed < 20) {
       document.body.classList.add('breezy')
