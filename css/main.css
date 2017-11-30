@@ -30,3 +30,6 @@ input:focus {
     position: relative;
     left: calc(50% - 115px);
 }
+#condition {
+    background-image:url('http://thehousebreakingbible.com/wp/wp-content/uploads/2015/12/chihuahua-puppy-958203_1280-e1480281259835.jpg')
+}
