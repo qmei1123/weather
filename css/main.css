@@ -1,3 +1,4 @@
+keyframes
 body {
     padding: 50px !important;
 }
@@ -30,6 +31,62 @@ input:focus {
     position: relative;
     text-align: center;
 }
+.cloudy {
+    background-image:url('http://thehousebreakingbible.com/wp/wp-content/uploads/2015/12/chihuahua-puppy-958203_1280-e1480281259835.jpg');
+}
+.clear {
+    background-image:url('http://thehousebreakingbible.com/wp/wp-content/uploads/2015/12/chihuahua-puppy-958203_1280-e1480281259835.jpg');
+}
+.rainy {
+    background-image:url('http://thehousebreakingbible.com/wp/wp-content/uploads/2015/12/chihuahua-puppy-958203_1280-e1480281259835.jpg');
+}
+.snowy {
+    background-image:url('http://thehousebreakingbible.com/wp/wp-content/uploads/2015/12/chihuahua-puppy-958203_1280-e1480281259835.jpg');
+}
+/*wind speeds*/
+@-webkit-keyframes calm {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    100% {
+        transform: translate(1px, 0px);
+    }
+}
+@-webkit-keyframes breezy {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(5px, -1px);
+    }
+    100% {
+        transform: translate(5px, 2px);
+    }
+}
+@-webkit-keyframes windy {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    33% {
+        transform: translate(5px, -3px);
+    }
+    66% {
+        transform: translate(5px, 6px);
+    }
+    100% {
+        transform: translate(5px, -3px);
+    }
+}
 .calm {
-    color:aqua;
+    animation: calm 2s infinite;
+}
+.breezy {
+    animation: breezy 1.5s infinite;
+}
+.windy {
+    animation: windy 1s infinite;
+}
+/*temp*/
+.hot {
+    
 }

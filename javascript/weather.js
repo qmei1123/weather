@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 // ============================================================
 // API Key
@@ -62,11 +62,11 @@ async function getWeather (city, key, units = 'imperial') {
 
     // Set Temperature Body Class
     if (data.main.temp < 45) {
-      document.body.classList.add('cold')
+      ddocument.body.className = 'cold'
     } else if (data.main.temp >= 45 && data.main.temp <= 75) {
-      document.body.classList.add('warm')
+      document.body.className = 'warm'
     } else {
-      document.body.classList.add('hot')
+      ddocument.body.className = 'hot'
     }
 
     // Set Weather Data
@@ -79,16 +79,14 @@ async function getWeather (city, key, units = 'imperial') {
     document.body.classList.add(data.weather[0].main.toLowerCase())
 
     if (data.weather[0].number >= 200 && data.weather[0].number < 600) {
-        document.body.classList.add('rainy')
+        document.body.className = 'rainy'
     } else if (data.weather[0].number >= 600 && data.weather[0].number < 700) {
-       document.body.classList.add('snowy') 
+       document.body.className = 'snowy'
     } else if (data.weather[0].number == 800 || data.weather[0].number == 951) {
-        document.body.clasList.add('clear')
+        document.body.className = 'clear'
     } else if (data.weather[0].number > 800 && data.weather[0].number < 805) {
-    document.body.classList.add('cloudy')
-    } else if (data.weather[0].number > 951 && data.weather[0].number < 963) {
-        document.body.classList.add('windy')
-    }
+        document.body.className = 'cloudy'
+    } 
         
 
         
