@@ -11,6 +11,7 @@ h1 {
 h2 {
     font-size: 56px;
     font-family: 'BenchNine', sans-serif;
+    font-weight: 700;
 }
 h3 {
     font-size: 42px;
@@ -38,7 +39,10 @@ input:focus {
     text-align: center;
 }
 .temp-range {
+    position: relative;
+    left: calc(50% - 37.5px);
     background-color: aliceblue;
+    width: 75px;
 }
 #temp-min {
     text-decoration: overline;
@@ -112,5 +116,11 @@ input:focus {
 }
 /*temp*/
 .hot {
-    
+    background-image: url('http://en.bcdn.biz/Images/2016/11/15/776342f0-86f5-4522-84c9-a02d6b11c766.jpg');
+}
+.warm {
+    background-image: url('http://en.bcdn.biz/Images/2016/11/15/776342f0-86f5-4522-84c9-a02d6b11c766.jpg');
+}
+.cold {
+    background-image: url('http://en.bcdn.biz/Images/2016/11/15/776342f0-86f5-4522-84c9-a02d6b11c766.jpg');
 }
