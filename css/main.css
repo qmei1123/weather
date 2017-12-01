@@ -9,7 +9,13 @@ h1 {
     left: calc(50% - 65px);
 }
 h2 {
+    font-size: 56px;
     font-family: 'BenchNine', sans-serif;
+}
+h3 {
+    font-size: 42px;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 
 }
 input {
     position: relative;
@@ -35,12 +41,10 @@ input:focus {
     background-color: aliceblue;
 }
 #temp-min {
-    display: inline;
     text-decoration: overline;
     text-decoration-color: #00dbdb;
 }
 #temp-max {
-    display: inline;
     text-decoration: underline;
     text-decoration-color: #fb2e01;
 }
