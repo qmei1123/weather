@@ -5,14 +5,14 @@ h1 {
     font-size: 28px;
     font-family: 'BenchNine', sans-serif;
     position: relative;
-    left: calc(50% - 50px);
+    left: calc(50% - 65px);
 }
 h2 {
     font-family: 'BenchNine', sans-serif;
 }
 input {
     position: relative;
-    left: calc(50% - 115px);
+    left: calc(50% - 130px);
     display: block;
     text-transform: uppercase;
     font-size: 28px;
@@ -28,7 +28,7 @@ input:focus {
 }
 .location {
     position: relative;
-    left: calc(50% - 115px);
+    text-align: center;
 }
 .cloudy {
     background-image:url('http://thehousebreakingbible.com/wp/wp-content/uploads/2015/12/chihuahua-puppy-958203_1280-e1480281259835.jpg')
@@ -36,6 +36,6 @@ input:focus {
 .clear {
     background-image:url('http://thehousebreakingbible.com/wp/wp-content/uploads/2015/12/chihuahua-puppy-958203_1280-e1480281259835.jpg')
 }
-.rainy {
+.windy {
     background-image:url('http://thehousebreakingbible.com/wp/wp-content/uploads/2015/12/chihuahua-puppy-958203_1280-e1480281259835.jpg')
 }

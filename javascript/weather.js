@@ -85,7 +85,7 @@ async function getWeather (city, key, units = 'imperial') {
     } else if (data.weather[0].number == 800 || data.weather[0].number == 951) {
         document.body.clasList.add('clear')
     } else if (data.weather[0].number > 800 && data.weather[0].number < 805) {
-        document.body.classList.add('cloudy')
+    document.body.classList.add('cloudy')
     } else if (data.weather[0].number > 951 && data.weather[0].number < 963) {
         document.body.classList.add('windy')
     }
