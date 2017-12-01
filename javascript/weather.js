@@ -76,7 +76,7 @@ async function getWeather (city, key, units = 'imperial') {
     
 
     // Set Weather Body Class
-    document.body.classList.add(data.weather[0].main.toLowerCase())
+    document.body.classList.add(data.weather[0].main.toUpperCase())
 
     if (data.weather[0].number >= 200 && data.weather[0].number < 600) {
         document.classList.add = 'rainy'

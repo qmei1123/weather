@@ -27,11 +27,20 @@ input:focus {
     outline: none;
     background-color: yellow;
 }
+.content {
+    position: relative;
+    text-align: center;
+}
+.temp-range {
+    background-color: aliceblue;
+}
 #temp-min {
+    display: inline;
     text-decoration: overline;
     text-decoration-color: #00dbdb;
 }
 #temp-max {
+    display: inline;
     text-decoration: underline;
     text-decoration-color: #fb2e01;
 }

@@ -33,17 +33,19 @@
           <p><span id="location-name"></span>&#44; <span id="country"></span></p>
         </div>
       <!-- Content -->
-      <div>
+      <div class="content">
 
         <div>
           <h2><span id="temp"></span></h2>
-          <h3><span id="temp-min"></span></h3> &ndash; <h3><span id="temp-max"></span></h3>
+          <div class="temp-range">
+              <h3>
+                  <span id="temp-min"></span> &ndash; <span id="temp-max"></span>
+              </h3>
+          </div>
         </div>
         
         <div>
-          <h2>Weather</h2>
-          <p>Condition: <span id="condition"></span></p>
-          <p>Description: <span id="condition-description"></span></p>
+          <p><span id="condition-description"></span></p>
           <p>Wind Speed: <span id="wind-speed"></span>mph</p>
         </div>
       </div>
