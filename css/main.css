@@ -30,12 +30,6 @@ input:focus {
     position: relative;
     text-align: center;
 }
-.cloudy {
-    background-image:url('http://thehousebreakingbible.com/wp/wp-content/uploads/2015/12/chihuahua-puppy-958203_1280-e1480281259835.jpg');
-}
-.clear {
-    background-image:url('http://thehousebreakingbible.com/wp/wp-content/uploads/2015/12/chihuahua-puppy-958203_1280-e1480281259835.jpg');
-}
-.windy {
-    background-image:url('http://thehousebreakingbible.com/wp/wp-content/uploads/2015/12/chihuahua-puppy-958203_1280-e1480281259835.jpg');
+.calm {
+    color:aqua;
 }
