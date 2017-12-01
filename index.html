@@ -36,16 +36,14 @@
       <div>
 
         <div>
-          <h2>Temperature</h2>
-          <p>Current Temp: <span id="temp"></span></p>
-          <p>Max Temp: <span id="temp-max"></span></p>
-          <p>Min Temp: <span id="temp-min"></span></p>
+          <h2><span id="temp"></span></h2>
+          <h3><span id="temp-min"></span></h3> &ndash; <h3><span id="temp-max"></span></h3>
         </div>
         
         <div>
           <h2>Weather</h2>
           <p>Condition: <span id="condition"></span></p>
-          <p>Desription: <span id="condition-description"></span></p>
+          <p>Description: <span id="condition-description"></span></p>
           <p>Wind Speed: <span id="wind-speed"></span>mph</p>
         </div>
       </div>
@@ -53,8 +51,13 @@
     </div>
     
     <!-- Site JavaScript -->
+      <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
     <script src="/javascript/toggleClass.js" charset="utf-8"></script>
     <script src="/javascript/main.js" charset="utf-8"></script>
     <script src="/javascript/weather.js" charset="utf-8"></script>
+      
   </body>
 </html>

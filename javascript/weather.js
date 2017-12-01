@@ -79,9 +79,9 @@ async function getWeather (city, key, units = 'imperial') {
     document.body.classList.add(data.weather[0].main.toLowerCase())
 
     if (data.weather[0].number >= 200 && data.weather[0].number < 600) {
-        document.body.className = 'rainy'
+        document.classList.add = 'rainy'
     } else if (data.weather[0].number >= 600 && data.weather[0].number < 700) {
-       document.body.className = 'snowy'
+       document.className = 'snowy'
     } else if (data.weather[0].number == 800 || data.weather[0].number == 951) {
         document.body.className = 'clear'
     } else if (data.weather[0].number > 800 && data.weather[0].number < 805) {
@@ -98,6 +98,46 @@ async function getWeather (city, key, units = 'imperial') {
     } else {
       document.body.className = 'calm'
     }
+      
+var one = {'transform': 'translate(0px)'};
+var calmOne = {'transform': 'translate(-1px, 0px)'};
+var breezyOne = {'transform': 'translate(5px, -1px)'};
+var breezyTwo = {'transform': 'translate(5px, 2px)'}
+      
+var windyOne = {'transform': 'translate(5px, 3px)'};
+var windyTwo = {'transform': 'translate(5px, -6px)'}; 
+var windyThree = {'transform': 'translate(5px, 3px)'};   
+     
+
+
+
+$.keyframe.define([{
+name: 'calm',
+'0%': one,
+'100%': calmOne
+}]);
+      
+$.keyframe.define([{
+name: 'breezy',
+'0%': one,
+'50%': breezyOne,
+'100%': breezyTwo
+}]);
+      
+$.keyframe.define([{
+name: 'windy',
+'0%': one,
+'33%': windyOne,
+'66%': windyTwo,
+'100%':windyThree
+}]);
+      
+      
+    if (document.body.classList.contains('calm')) {
+       $('#condition-description').playKeyframe('calm 2s')
+    }  
+      
+      
       
     // Log data from the API to the console
     console.log(data)

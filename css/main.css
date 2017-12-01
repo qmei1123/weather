@@ -27,6 +27,14 @@ input:focus {
     outline: none;
     background-color: yellow;
 }
+#temp-min {
+    text-decoration: overline;
+    text-decoration-color: #00dbdb;
+}
+#temp-max {
+    text-decoration: underline;
+    text-decoration-color: #fb2e01;
+}
 .location {
     position: relative;
     text-align: center;
@@ -57,10 +65,10 @@ input:focus {
         transform: translate(0px, 0px);
     }
     50% {
-        transform: translate(5px, -1px);
+        transform: translate(10px, -1px);
     }
     100% {
-        transform: translate(5px, 2px);
+        transform: translate(10px, 2px);
     }
 }
 @-webkit-keyframes windy {
@@ -68,23 +76,26 @@ input:focus {
         transform: translate(0px, 0px);
     }
     33% {
-        transform: translate(5px, -3px);
+        transform: translate(20px, -3px);
     }
     66% {
-        transform: translate(5px, 6px);
+        transform: translate(20px, 6px);
     }
     100% {
-        transform: translate(5px, -3px);
+        transform: translate(20px, -3px);
     }
 }
 .calm {
     animation: calm 2s infinite;
+    animation-direction: alternate-reverse;
 }
 .breezy {
     animation: breezy 1.5s infinite;
+    animation-direction: alternate-reverse;
 }
 .windy {
     animation: windy 1s infinite;
+    animation-direction: alternate-reverse;
 }
 /*temp*/
 .hot {
