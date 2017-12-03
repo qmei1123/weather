@@ -121,11 +121,11 @@ input:focus {
 }
 /*temp*/
 .hot {
-    background-image: url('http://en.bcdn.biz/Images/2016/11/15/776342f0-86f5-4522-84c9-a02d6b11c766.jpg');
+    background-color: orangered;
 }
 .warm {
-    background-image: url('http://en.bcdn.biz/Images/2016/11/15/776342f0-86f5-4522-84c9-a02d6b11c766.jpg');
+    background-color: orange;
 }
 .cold {
-    background-image: url('http://en.bcdn.biz/Images/2016/11/15/776342f0-86f5-4522-84c9-a02d6b11c766.jpg');
+    background-color: dodgerblue;
 }
