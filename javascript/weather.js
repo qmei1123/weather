@@ -62,7 +62,7 @@ async function getWeather (city, key, units = 'imperial') {
 
     // Set Temperature Body Class
     if (data.main.temp < 45) {
-      ddocument.body.className = 'cold'
+      document.body.className = 'cold'
     } else if (data.main.temp >= 45 && data.main.temp <= 75) {
       document.body.className = 'warm'
     } else {
