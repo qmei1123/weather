@@ -1,6 +1,6 @@
-keyframes
 body {
     padding: 50px !important;
+    padding-top: 100px;
 }
 h1 {
     font-size: 28px;
@@ -37,6 +37,11 @@ input:focus {
 .content {
     position: relative;
     text-align: center;
+}
+#temp {
+    display: block;
+    font-size: 100px;
+    font-weight: 700;
 }
 .temp-range {
     position: relative;
