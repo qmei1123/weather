@@ -39,11 +39,12 @@ input:focus {
     text-align: center;
 }
 #temp {
-    display: block;
+    display: inline;
     font-size: 100px;
     font-weight: 700;
 }
 .temp {
+    display: block;
     font-size: 100px;
     font-weight: 700;
 }
