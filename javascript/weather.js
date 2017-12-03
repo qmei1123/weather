@@ -76,7 +76,7 @@ async function getWeather (city, key, units = 'imperial') {
     
 
     // Set Weather Body Class
-    document.body.classList.add(data.weather[0].main.toUpperCase())
+    document.body.classList.add(data.weather[0].main.toLowerCase())
 
         
     // Set Wind Body Class
