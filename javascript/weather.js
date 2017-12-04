@@ -27,7 +27,6 @@ const tempMin = document.querySelector('#temp-min')
 const tempMax = document.querySelector('#temp-max')
 
 // Weather
-const condition = document.querySelector('#condition')
 const conditionDescription = document.querySelector('#condition-description')
 
 // Wind
@@ -70,7 +69,6 @@ async function getWeather (city, key, units = 'imperial') {
     }
 
     // Set Weather Data
-    condition.innerText = data.weather[0].main
     conditionDescription.innerText = data.weather[0].description
     windSpeed.innerText = Math.round(data.wind.speed)
     
