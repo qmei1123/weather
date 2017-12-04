@@ -69,10 +69,10 @@ async function getWeather (city, key, units = 'imperial') {
     }
 
       var coldRun = document.createTextNode('Put on a jacket, suck it up, and run like the wind.')
-      
+      var tempRange = document.getElementsByClassName('temp-range')
       
       if (document.body.className = 'cold') {
-          document.body.appendChild(coldRun);
+          document.tempRange.appendChild(coldRun);
       }
      
     // Set Weather Data
