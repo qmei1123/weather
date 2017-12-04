@@ -69,7 +69,7 @@ async function getWeather (city, key, units = 'imperial') {
     }
 
       if (document.body.className = 'cold') {
-          document.getElementsByClassName('running').createTextNode('Put on a jacket, suck it up, and run like the wind.')
+     document.getElementsByClassName('temp-range').createTextNode('Put on a jacket, suck it up, and run like the wind.')
       }
     // Set Weather Data
     conditionDescription.innerText = data.weather[0].description
