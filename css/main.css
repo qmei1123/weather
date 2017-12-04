@@ -108,11 +108,11 @@ input:focus {
 }
 /*temp*/
 .hot {
-    background-color: orangered;
+    background-color: #fb7a0f;
 }
 .warm {
-    background-color: orange;
+    background-color: #fbaa0f;
 }
 .cold {
-    background-color: dodgerblue;
+    background-color: #0f7efb;
 }
