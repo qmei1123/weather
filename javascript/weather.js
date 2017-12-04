@@ -68,6 +68,9 @@ async function getWeather (city, key, units = 'imperial') {
       document.body.className = 'hot'
     }
 
+      if (document.body.className = 'cold') {
+          document.getElementsByClassName('running').createTextNode('Put on a jacket, suck it up, and run like the wind.')
+      }
     // Set Weather Data
     conditionDescription.innerText = data.weather[0].description
     windSpeed.innerText = Math.round(data.wind.speed)
