@@ -95,14 +95,14 @@ input:focus {
         transform: translate(20px, -3px);
     }
 }
-.calm {
+#calm {
     animation: calm 2s infinite;
 }
-.breezy {
+#breezy {
     animation: breezy 1.5s infinite;
     animation-direction: alternate-reverse;
 }
-.windy {
+#windy {
     animation: windy 1s infinite;
     animation-direction: alternate-reverse;
 }
