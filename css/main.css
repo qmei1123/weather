@@ -50,7 +50,7 @@ input:focus {
 }
 .temp-range {
     position: relative;
-    top: 50px;
+    bottom: 50px;
     left: calc(50% - 60px);
     width: 120px;
 }
