@@ -72,7 +72,7 @@ async function getWeather (city, key, units = 'imperial') {
       
       
       if (document.body.className = 'cold') {
-          coldRun;
+          document.getElementsByClassName('temp-range').appendChild(coldRun);
       }
      
     // Set Weather Data
