@@ -106,7 +106,6 @@ input:focus {
 }
 .calm {
     animation: calm 2s infinite;
-    animation-direction: alternate-reverse;
 }
 .breezy {
     animation: breezy 1.5s infinite;
