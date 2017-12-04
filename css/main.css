@@ -18,6 +18,9 @@ h3 {
     font-family: 'BenchNine', sans-serif;
     font-size: 
 }
+.hide {
+    display: none;
+}
 input {
     position: relative;
     left: calc(50% - 130px);

@@ -49,7 +49,7 @@ async function getWeather (city, key, units = 'imperial') {
     document.body.classList = ''
 
     // Clear Error
-    errorBox.classList.add('dn')
+    errorBox.classList.add('hide')
 
     // Set Location Data
     locationName.innerText = data.name || ''
@@ -92,7 +92,7 @@ async function getWeather (city, key, units = 'imperial') {
     console.log(data)
   } catch (e) {
     console.error(e)
-    errorBox.classList.remove('dn')
+    errorBox.classList.remove('hide')
   }
 }
 
