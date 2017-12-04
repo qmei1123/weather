@@ -49,7 +49,7 @@ async function getWeather (city, key, units = 'imperial') {
     document.body.classList = ''
 
     // Clear Error
-    errorBox.classList.add('hide')
+    errorBox.classList.add('dn')
 
     // Set Location Data
     locationName.innerText = data.name || ''
@@ -81,19 +81,18 @@ async function getWeather (city, key, units = 'imperial') {
         
     // Set Wind Body Class
     if (data.wind.speed > 10 && data.wind.speed < 20) {
-      document.getElementsByClassName('content').addClass('breezy')
+      document.body.className = 'breezy'
     } else if (data.wind.speed >= 20) {
-      document.getElementsByClassName('content').addClass('windy')    
-    
+      document.body.className = 'windy'
     } else {
-      document.getElementsByClassName('content').addClass('calm')
+      document.body.className = 'calm'
     }
 
     // Log data from the API to the console
     console.log(data)
   } catch (e) {
     console.error(e)
-    errorBox.classList.remove('hide')
+    errorBox.classList.remove('dn')
   }
 }
 
