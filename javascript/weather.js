@@ -79,11 +79,11 @@ async function getWeather (city, key, units = 'imperial') {
         
     // Set Wind Body Class
     if (data.wind.speed > 10 && data.wind.speed < 20) {
-      document.body.classList.addClass('breezy')
+        document.body.className += ' ' + 'breezy';
     } else if (data.wind.speed >= 20) {
-      document.body.classList.addClass('windy')
+        document.body.className += ' ' + 'windy';
     } else {
-      document.body.classList.addClass('calm')
+        document.body.className += ' ' + 'calm';
     }
 
     // Log data from the API to the console
