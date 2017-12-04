@@ -40,12 +40,12 @@ input:focus {
 }
 #temp {
     display: inline;
-    font-size: 200px;
+    font-size: 100px;
     font-weight: 700;
 }
 .temp {
     display: block;
-    font-size: 200px;
+    font-size: 100px;
     font-weight: 700;
 }
 .temp-range {
