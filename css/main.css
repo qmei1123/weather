@@ -50,17 +50,8 @@ input:focus {
 }
 .temp-range {
     position: relative;
-    left: calc(50% - 50px);
-    background-color: aliceblue;
-    width: 100px;
-}
-#temp-min {
-    text-decoration: overline;
-    text-decoration-color: #00dbdb;
-}
-#temp-max {
-    text-decoration: underline;
-    text-decoration-color: #fb2e01;
+    left: calc(50% - 60px);
+    width: 120px;
 }
 .location {
     position: relative;
