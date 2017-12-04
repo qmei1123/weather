@@ -66,7 +66,7 @@ async function getWeather (city, key, units = 'imperial') {
     } else if (data.main.temp >= 45 && data.main.temp <= 75) {
       document.body.className = 'warm'
     } else {
-      ddocument.body.className = 'hot'
+      document.body.className = 'hot'
     }
 
     // Set Weather Data
@@ -83,7 +83,7 @@ async function getWeather (city, key, units = 'imperial') {
     if (data.wind.speed > 10 && data.wind.speed < 20) {
       document.body.classList.add('breezy')
     } else if (data.wind.speed >= 20) {
-      ddocument.body.classList.add('windy')
+      document.body.classList.add('windy')
     } else {
       document.body.classList.add('calm')
     }
