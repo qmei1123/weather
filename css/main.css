@@ -50,9 +50,9 @@ input:focus {
 }
 .temp-range {
     position: relative;
-    left: calc(50% - 37.5px);
+    left: calc(50% - 50px);
     background-color: aliceblue;
-    width: 75px;
+    width: 100px;
 }
 #temp-min {
     text-decoration: overline;
