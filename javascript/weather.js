@@ -68,12 +68,7 @@ async function getWeather (city, key, units = 'imperial') {
       document.body.className = 'hot'
     }
       
-    var paragraph = document.getElementByClassName('temp-range')
-    var coldRun = document.createTextNode('Put on a jacket, suck it up, and run like the wind.')
-    
-      function coldRunDiv() {
-        paragraph.appendChild(coldRun)
-      } 
+
       
       if (document.body.className = 'cold') {
           coldRunDiv;
