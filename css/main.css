@@ -55,6 +55,7 @@ input:focus {
     position: relative;
     bottom: 100px;
     left: calc(50% - 60px);
+    bottom: -50px;
     width: 120px;
 }
 .location {
