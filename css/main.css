@@ -20,7 +20,6 @@ h2 {
 h3 {
     font-size: 42px;
     font-family: 'BenchNine', sans-serif;
-    font-size: 
 }
 .hide {
     display: none;
@@ -35,7 +34,7 @@ input {
     text-align:center;
     padding: 25px;
     border: none;
-    background-color:azure;
+    background-color: #e300ff;
 }
 input:focus {
     outline: none;
