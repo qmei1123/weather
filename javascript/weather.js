@@ -59,20 +59,11 @@ async function getWeather (city, key, units = 'imperial') {
     tempMin.innerText = Math.round(data.main.temp_min)
     tempMax.innerText = Math.round(data.main.temp_max)
 
-    //Create Text Node for temperatures
-    var coldRun = document.createTextNode('Put on a jacket, suck it up, and run like the wind.');
-    
-function coldRunDiv() {
-    document.getElementsByName('temp-range').appendChild(coldRun);
-} 
-      
     // Set Temperature Body Class & create text
     if (data.main.temp < 45) {
-      document.body.className = 'cold';
-        coldRunDiv();
+      document.body.className = 'cold'
     } else if (data.main.temp >= 45 && data.main.temp <= 75) {
       document.body.className = 'warm'
-      coldRunDiv();
     } else {
       document.body.className = 'hot'
     }
