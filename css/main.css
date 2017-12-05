@@ -1,6 +1,9 @@
 body {
     padding: 20px !important;
 }
+.sans-serif {
+    background-color: #e300ff;
+}
 h1 {
     font-size: 28px;
     font-family: 'BenchNine', sans-serif;
