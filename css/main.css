@@ -114,6 +114,10 @@ input:focus {
 /*temp*/
 .hot {
     background-image: url('../hot.jpg');
+    background-size: 300px auto;
+    background-repeat: space;
+    
+    
 }
 .warm {
     background-image: url('../sunny.gif');
