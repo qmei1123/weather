@@ -39,6 +39,7 @@ input {
 input:focus {
     outline: none;
     background-color: yellow;
+    color: #e300ff;
 }
 .content {
     position: relative;
