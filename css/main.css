@@ -113,11 +113,11 @@ input:focus {
 }
 /*temp*/
 .hot {
-    background-color: #fb7a0f;
+    background-image: url('../hot.jpg');
 }
 .warm {
-    background-color: #fbaa0f;
+    background-image: url('../sunny.gif');
 }
 .cold {
-    background-color: #0f7efb;
+    background-image: url('../cold.gif');
 }
