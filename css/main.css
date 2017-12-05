@@ -2,7 +2,9 @@ body {
     padding: 20px !important;
 }
 .sans-serif {
-    background-color: #e300ff;
+}
+*{
+    color: white;
 }
 h1 {
     font-size: 28px;
