@@ -72,6 +72,7 @@ function coldRunDiv() {
         coldRunDiv();
     } else if (data.main.temp >= 45 && data.main.temp <= 75) {
       document.body.className = 'warm'
+      coldRunDiv();
     } else {
       document.body.className = 'hot'
     }
