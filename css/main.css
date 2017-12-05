@@ -114,7 +114,7 @@ input:focus {
 /*temp*/
 .hot {
     background-image: url('../hot.jpg');
-    background-size: 300px auto;
+    background-size: 100px auto;
     background-repeat: space;
     
     
