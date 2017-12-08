@@ -107,10 +107,10 @@ input:focus {
         transform: translate(20px, -3px);
     }
     66% {
-        transform: translate(20px, 6px);
+        transform: translate(40px, 10px);
     }
     100% {
-        transform: translate(20px, -3px);
+        transform: translate(80px, -5px);
     }
 }
 .calm {
