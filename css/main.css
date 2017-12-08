@@ -55,8 +55,7 @@ input:focus {
     display: block;
     font-size: 100px;
     font-weight: 700;
-    bottom: 20px;
-    
+    bottom: 40px;
 }
 .temp-range {
     position: relative;
@@ -65,7 +64,7 @@ input:focus {
     width: 120px;
 }
 .wind-speed {
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 700;
 }
 #winds {
