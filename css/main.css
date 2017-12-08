@@ -92,11 +92,14 @@ input:focus {
     0% {
         transform: translate(0px, 0px);
     }
-    50% {
-        transform: translate(10px, -1px);
+    33% {
+        transform: translate(10px, -3px);
+    }
+    66% {
+        transform: translate(-30px, 8px);
     }
     100% {
-        transform: translate(10px, 2px);
+        transform: translate(70px, -5px);
     }
 }
 @-webkit-keyframes windy {
