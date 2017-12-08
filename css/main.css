@@ -124,6 +124,7 @@ input:focus {
 .breezy {
     animation: breezy 5s infinite;
     animation-direction: alternate-reverse;
+    animation-timing-function: ease;
 }
 .windy {
     animation: windy 1s infinite;
