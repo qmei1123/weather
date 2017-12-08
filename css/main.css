@@ -75,6 +75,9 @@ input:focus {
     bottom: 160px;
     line-height: .75em;
 }
+#condition-description {
+    display: none;
+}
 .location {
     position: relative;
     text-align: center;
