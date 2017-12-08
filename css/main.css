@@ -69,12 +69,11 @@ input:focus {
 }
 #winds {
     font-size: 50px;
-    font-weight: 700;
 }
 .weather-conditions {
     position: relative;
-    bottom: 120px;
-    line-height: 1em;
+    bottom: 160px;
+    line-height: .75em;
 }
 .location {
     position: relative;
