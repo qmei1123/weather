@@ -110,7 +110,7 @@ input:focus {
         transform: translate(-80px, 10px);
     }
     100% {
-        transform: translate(80px, -5px);
+        transform: translate(160px, -5px);
     }
 }
 .calm {
