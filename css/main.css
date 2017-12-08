@@ -72,6 +72,7 @@ input:focus {
 .weather-conditions {
     position: relative;
     bottom: 80px;
+    line-height: 1em;
 }
 .location {
     position: relative;
