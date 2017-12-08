@@ -64,6 +64,8 @@ input:focus {
 .weather-conditions {
     position: relative;
     bottom: 20px;
+    font-size: 100px;
+    font-weight: 700;
 }
 .location {
     position: relative;
