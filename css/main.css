@@ -59,7 +59,7 @@ input:focus {
 }
 .temp-range {
     position: relative;
-    bottom: 100px;
+    bottom: 140px;
     left: calc(50% - 60px);
     width: 120px;
 }
@@ -73,7 +73,7 @@ input:focus {
 }
 .weather-conditions {
     position: relative;
-    bottom: 80px;
+    bottom: 120px;
     line-height: 1em;
 }
 .location {
