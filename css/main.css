@@ -69,8 +69,8 @@ input:focus {
 }
 .weather-conditions {
     position: relative;
-    bottom: 100px;
-    line-height: .66em;
+    bottom: 80px;
+    line-height: .5em;
 }
 #condition-description {
     display: none;
