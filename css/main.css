@@ -61,11 +61,13 @@ input:focus {
     left: calc(50% - 60px);
     width: 120px;
 }
+#wind-speed {
+    font-size: 100px;
+    font-weight: 700;
+}
 .weather-conditions {
     position: relative;
     bottom: 20px;
-    font-size: 100px;
-    font-weight: 700;
 }
 .location {
     position: relative;
